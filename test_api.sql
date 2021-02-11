@@ -42,7 +42,7 @@ CREATE TABLE `data_group` (
 INSERT INTO `data_group` (`id`, `title`, `description`, `timestamp`, `project_id`) VALUES
 (1, 'Energy', 'Ini Adalah deskripsi untuk group energy.', 1611704092, 1);
 
--- --------------------------------------------------------
+-- -------------------------------------------------------
 
 --
 -- Table structure for table `data_node`

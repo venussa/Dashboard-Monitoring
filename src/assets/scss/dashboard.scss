@@ -1,0 +1,335 @@
+@import '~@core/scss/base/pages/dashboard-ecommerce.scss';
+
+.card-company-table {
+  td {
+    .b-avatar.badge-light-company {
+      background-color: $body-bg;
+      margin-right: 2rem;
+    }
+  }
+}
+
+.main-menu .navbar-header .navbar-brand .brand-logo img {
+  max-width: none;
+  width: 180px;
+}
+
+ul.list-menu{
+  padding-top: 10px;
+}
+ul.list-menu li{
+  margin-bottom: 10px;
+}
+
+div.navbar-logo{
+  margin-bottom: 50px;
+}
+
+.toggle-theme{
+  margin:0px;
+  margin-left:10px;
+  cursor:pointer;
+}
+
+.dropdown-toggle::after {
+  background: none !important;
+}
+.page-delimiter{
+  font-size: 12px;
+  font-weight:700;
+  margin-left:5px;
+  margin-right:5px;
+}
+.page-title, a.page-title{
+  font-size: 14px;
+  position: relative;
+  top: 2px;
+}
+
+.page-nav{
+  font-size:13px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  top: -3px;
+  margin-left: 15px;
+  display: inline-block;
+  position: relative;
+}
+
+.page-heading{
+  font-size: 24px;
+  display: inline-block;
+  padding-right:15px;
+  border-right:1px #ddd solid;
+}
+
+.margin{
+  height:0px;
+}
+
+.card-link{
+  padding:0px;
+  margin:0px;
+  width: 100% !important;
+  text-align: left;
+}
+.card-link:hover{
+  background: transparent !important;
+}
+
+/** dahsboard user **/
+.node-project{
+  max-height:320px;
+  position: relative;
+}
+@media only screen and (min-width: 769px) {
+  .node-project .card-title{
+    height: 65px;
+  }
+  .node-project .card-desc{
+    height:45px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .node-project .card-title{
+    height: auto;
+  }
+  .node-project .card-desc{
+    height:auto;
+  }
+}
+
+.node-project .card-title{
+  font-weight: 600;
+  font-size: 23px;
+  position: relative;
+  overflow: hidden;
+  display: block;
+  text-align: left;
+  padding:0px;
+  line-height:30px;
+  width:100%;
+}
+.node-project .card-title:hover{
+  background: transparent !important;
+}
+
+.node-project .more-icon{
+  position: absolute;
+  right:-20px;
+  top:10px;
+}
+
+.node-project .card-desc{
+  margin-top:-10px;
+  font-size: 12px;
+  overflow: hidden;
+}
+
+.node-project .value{
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight:600;
+  font-size:20px;
+  float:right;
+  padding:0px;
+  width:auto;
+}
+
+.node-project .b-avatar{
+  border-radius: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.node-project .title{
+  padding:10px;
+  padding-top:4px;
+  font-size:18px;
+}
+.node-project .value{
+  position: absolute;
+  right:0px;
+  top:-7px;
+}
+.node-project .value button{
+  font-size:23px;
+  font-weight:600;
+  padding:0px;
+  display: inline-block;
+  width: auto !important;
+}
+/** Total User Box **/
+.box-total-user{
+  padding:20px;
+}
+.box-total-user .font-number{
+  margin-top:30px;
+}
+.box-total-user .font-number span{
+  font-weight:600;
+  font-size:42px;
+}
+
+.box-total-user .font-title{
+  font-size:28px;
+  margin-top:-15px;
+}
+
+.box-total-user .box-icon{
+  width: 140px;
+  height: 140px;
+  font-size:20px;
+}
+
+/** Detail Box**/
+
+.box-detail{
+  position: relative;
+}
+
+.box-detail .rounded-square{
+  border-radius: 100%;
+}
+
+.box-detail .box-icon-detail{
+  width: 120px;
+  height: 120px;
+  margin-left:0px;
+  position: absolute;
+}
+
+.box-detail .box-heading{
+  margin-top: -20px;
+}
+
+.text-right{
+  position: absolute;
+  right:0px;
+  top:0px;
+}
+
+.box-detail .box-heading h1{
+  font-weight:600;
+  font-weight:16px;
+  margin-left: -20px;
+}
+
+.box-detail  .box-heading p{
+  margin-left:-17px;
+  margin-top:10px;
+}
+
+.box-detail  .text-right{
+  margin-top: -60px;
+}
+
+.box-detail .font-title{
+  font-size:25px;
+  margin-top:-20px;
+}
+
+.box-detail .font-number span{
+  font-weight:600;
+  font-size:45px;
+}
+
+.box-detail .card-detail{
+  padding: 10px;
+  margin-top:0px;
+  text-align: left;
+}
+
+.box-detail .box{
+  margin-bottom: 20px;
+}
+
+/** Vertical Navbar **/
+.main-menu.menu-light .navigation > li.active > a {
+  box-shadow: 0 4px 18px -4px rgba(99, 99, 99, 0.87);
+  border-radius: 4px;
+}
+
+/** Account setting **/
+.nav-pills .nav-link.active {
+  box-shadow: 0 4px 18px -4px rgba(99, 99, 99, 0.87);
+}
+
+/** user list **/
+.right-btn{
+  position : absolute;
+  right: 25px;
+  margin-top:-50px;
+}
+
+.right-btn1{
+  position : absolute;
+  right: 25px;
+  top:0px;
+}
+
+.position-relative .username{
+  margin-top:10px;
+  margin-bottom: 5px;
+}
+
+.heading-cont{
+  margin-left: -30px;
+}
+
+.bold-title{
+  font-weight: 600;
+  font-size:25px;
+}
+
+.dropdown-icon{
+  background: url('../images/favicon/chevron-down.svg');
+  height: 20px;
+  width: 20px;
+  display: block;
+  margin-right:5px;
+  margin-bottom:5px;
+}
+.top-bg-decoration{
+  background: url('../images/background/bg-top.png');
+  display: block;
+  width: 242px;
+  height: 242px;
+  background-size: contain;
+  position: absolute;
+  margin-top:-70px;
+  margin-left:-50px;
+  z-index: 1;
+}
+.bottom-bg-decoration{
+  background: url('../images/background/bg-bottom.png');
+  display: block;
+  width: 242px;
+  height: 242px;
+  background-size: contain;
+  position: absolute;
+  right:-30px;
+  margin-top: -190px;
+  z-index: 1;
+}
+
+.table-space{
+  padding: 14px !important;
+}
+.table-space .card-body{
+  padding: 0px;
+}
+
+/** edit data **/
+
+.field-data{
+  margin-bottom: 30px;
+}
+
+.footer-right{
+  position: absolute;
+  right: 20px;
+  margin-top: -34px;
+  padding-left:50px;
+}
